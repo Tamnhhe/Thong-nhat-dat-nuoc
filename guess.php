@@ -9,7 +9,7 @@
 <p>
     <?php 
     
-        $my_num = 26;
+        $my_num = 45;
         
         if (!array_key_exists("guess",$_GET)) echo "Missing guess parameter";
         elseif (empty($_GET["guess"])) echo "Your guess is too short";
